@@ -1,12 +1,11 @@
-import {VFC} from 'react';
+import { VFC } from 'react'
 
-const sample:VFC = () => {
+const sample: VFC = () => {
   return (
     <div>
-      <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-      <a href="/">test</a>
+      <p>test</p>
     </div>
-  );
-};
+  )
+}
 
-export default sample;
+export default sample
